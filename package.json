@@ -24,6 +24,9 @@
     "eslint": "^3.2.2",
     "git-validate": "^2.1.4"
   },
+  "peerDependencies": {
+    "eslint": "^3.2.2"
+  },
   "pre-commit": [
     "lint"
   ]
