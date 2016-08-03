@@ -1,0 +1,30 @@
+{
+  "name": "node-hooks",
+  "version": "1.0.0",
+  "description": "Bootstraps Node.js projects with pre-commit hooks and code quality tools",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install.js",
+    "lint": "node_modules/eslint/bin/eslint.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/scult/node-hooks.git"
+  },
+  "keywords": [
+    "git",
+    "pre-commit",
+    "hooks",
+    "node"
+  ],
+  "author": "Martin Kapp <martin@coderats.net> (https://github.com/meister)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/scult/node-hooks#readme",
+  "dependencies": {
+    "eslint": "^3.2.2",
+    "git-validate": "^2.1.4"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
