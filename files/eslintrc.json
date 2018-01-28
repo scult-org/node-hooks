@@ -14,12 +14,14 @@
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
     }
   },
   "rules": {
     /* Best Practices */
-    "complexity": ["error", 10],
+    "complexity": ["error", 12],
     "curly": ["error", "all"],
     "dot-location": ["error", "property"],
     "dot-notation": ["error", {
