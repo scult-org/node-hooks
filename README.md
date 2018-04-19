@@ -4,7 +4,7 @@ Git pre-commit hooks configuration
 ## Usage
 
 ```
-npm install --save-dev git+ssh@github.com:scult-org/node-hooks.git#v1.1.6
+npm install --save-dev git+ssh@github.com:scult-org/node-hooks.git#v1.1.7
 ```
 
 ## What it does?
